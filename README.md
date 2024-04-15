@@ -70,14 +70,14 @@ The datasets are organized as follows
 ```
 
 ## Eval on Sceneflow or Spring
-Set **data directory** in *'configs/data/sceneflow.yaml'* and **load_weights_fron_checkpoint** in
+Set **dataset_path** in *'configs/data/sceneflow.yaml'* and **load_weights_fron_checkpoint** in
 *'./scripts/eval_sceneflow.sh'*. Then run:
 
     bash scripts/eval_sceneflow.sh
     bash scripts/eval_spring.sh
 
 ## Train on Sceneflow
-Set **data directory** in *'configs/data/sceneflow.yaml'*. Then run:
+Set **dataset_path** in *'configs/data/sceneflow.yaml'*. Then run:
 
     bash scripts/train_sceneflow.sh
 
