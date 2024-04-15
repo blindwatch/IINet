@@ -1,0 +1,9 @@
+kornia
+matplotlib
+antialiased-cnns
+opencv-python
+progressbar2
+timm
+tensorboardX
+h5py
+pypng
