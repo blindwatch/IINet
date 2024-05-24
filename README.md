@@ -69,6 +69,14 @@ The datasets are organized as follows
 
 ```
 
+## Test single stereo pair
+Please download the pretrained sceneflow checkpoint and put it in the root directory. Then
+put left and right image in the *'test'* folder and name them with **'left.png'** 
+and **'right.png'**. Then run:
+
+    bash scripts/test_single.sh
+
+The colored disparity map and 16bit disparity map will be saved in the same folder.
 ## Eval on Sceneflow or Spring
 Set **dataset_path** in *'configs/data/sceneflow.yaml'* and **load_weights_fron_checkpoint** in
 *'./scripts/eval_sceneflow.sh'*. Then run:
